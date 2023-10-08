@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin.md",
+                "file": "Kotlin/변수와 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin.md",
+                "file": "Kotlin/변수와 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin.md",
+                "file": "Kotlin/변수와 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin.md"
+                "file": "Kotlin/변수와 타입.md"
               }
             }
           }
@@ -159,11 +159,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a986ec94cfe1e20a",
+  "active": "0459ee8540d70d54",
   "lastOpenFiles": [
-    "Spring Framework.md",
-    "Kotlin.md",
     "README.md",
+    "Kotlin/변수와 타입.md",
+    "Kotlin.md",
+    "Spring Framework/Spring Framework.md",
+    "Spring Framework",
+    "Kotlin",
     "2023-10-08.md"
   ]
 }
