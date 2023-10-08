@@ -1,0 +1,52 @@
+# 학습 환경
+- openjdk 11.0.11
+- Kotlin 
+- IntelliJ
+
+
+# 변수와 타입
+## var vs val
+1. var는 가변, val은 불변 (Java에서의 final,  read-only)
+2. val은 다시 값을 assign 할 수 없다.
+3. 코틀린은 **타입을 추론**해주기 때문에 명시적으로 타입을 적어주지 않아도 된다.
+	- 명시적으로 적어주고 싶으면 `var number: Long` 과 같은 식으로 선언
+	- 초기값을 지정해주지 않는 경우에는 무조건 타입을 명시해줘야 함 ( 초기화 하지 않으면 `must be initialized` 에러)
+4. val로 Collection을 선언해도 내부 element 추가, 삭제는 가능
+5. **클린 코드 를 위한 팁** : 일단 val로 변수를 선언하고 수정이 필요한 경우에만 var로 바꾸는게 코드가 깔끔해짐
+
+## Primitive Type
+```java
+long number1 = 10L;
+Long number2 = 1_000L;
+```
+```kotlin
+var number1 = 10L
+var number2 = 1_000L
+```
+
+코틀린에서의 primitive type 과 reference type
+- 코틀린은 숫자, 문자, 불리언 같은 몇몇 타입에 대해 연산시에는 알아서 Primitive Type으로 변환하여 연산해주어서 Boxing, Unboxing에 대한 오버헤드를 고려하지 않아도 된다.
+
+## nullable 변수 
+Java에서 `Long` 과 같은 reference type은 null이 들어갈 수 있다.
+코틀린은 nullable을 명시하기 위해 `타입?` 로 선언해주어야 한다.
+```kotlin
+var number: Long? = 1_000L
+```
+
+## 객체 인스턴스화
+```java
+Person person = new Person("Danny");
+```
+```kotlin
+var person = Person("Danny")
+```
+코틀린은 인스턴스화 할 때 `new` 사용하지 않음
+
+
+
+# 반복문과 제어문
+# 예외처리
+# OOP
+# FP
+# Scope Function
