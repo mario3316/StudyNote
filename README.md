@@ -12,5 +12,5 @@ openjdk 11.0.11 / Kotlin 1.6 / IntelliJ
 - [Scope Function](/Kotlin/Scope_Function.md)
 
 번외
-- [[코틀린에서의_Wrapper_Type]]
-- [[Companion_Object]]
+- [코틀린에서의_Wrapper_Type](/Kotlin/번외/코틀린에서의_Wrapper_Type.md)
+- [Companion_Object](/Kotlin/번외/Companion_Object.md)
