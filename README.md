@@ -11,3 +11,6 @@ openjdk 11.0.11 / Kotlin 1.6 / IntelliJ
 - [Functional Programming](/Kotlin/FP.md)
 - [Scope Function](/Kotlin/Scope_Function.md)
 
+번외
+- [[코틀린에서의_Wrapper_Type]]
+- [[Companion_Object]]
